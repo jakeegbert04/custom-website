@@ -1,0 +1,80 @@
+
+.nav-bar {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: -3px 4px 27px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px 4px 27px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 4px 27px -5px rgba(0,0,0,0.75);
+}
+.nav-bar > .left-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;;
+}
+
+.nav-bar > .right-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;;
+}
+
+.nav-bar > .left-nav div {
+  padding: 10px;
+}
+
+.nav-bar > .left-nav div:hover {
+  cursor: pointer;
+  border: 1px solid grey;
+}
+
+.nav-bar > .right-nav div:hover {
+  cursor: pointer;
+  border: 1px solid grey;
+}
+
+.nav-bar > .right-nav div {
+  padding: 10px;
+}
+
+.nav-bar > .right-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-container > .about-me{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.main-container > .about-me > .left-about > .about-me-photo img {
+  height: 523.33px;
+  width: 294.33px;
+}
+
+.main-container > .about-me > .left-about {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-container > .about-me > .right-about {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+
+
+
+
+
+
