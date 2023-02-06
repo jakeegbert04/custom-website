@@ -1,9 +1,5 @@
 
 .nav-bar {
-  grid-row-start: 1;
-  grid-row-end: 1;
-  grid-column-start: 1;
-  grid-column-end: -1;
   display: flex;
   justify-content: space-between;
   align-items: center;
