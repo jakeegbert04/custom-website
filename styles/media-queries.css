@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .main-container > .about-me {
+    grid-template-columns: 1fr;
+  }
+  .main-container > .about-me > .left-about > .about-me-photo img {
+    height: 261.66px;
+    width: 146.6px;
+  }
+
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-content > .images {
+    display: flex;
+    flex-direction: column;
+  }
+}

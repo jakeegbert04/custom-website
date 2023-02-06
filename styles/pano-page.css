@@ -1,5 +1,5 @@
 img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
 }
 .page-container {
@@ -46,7 +46,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 125px;
   margin-top: 80px;
   margin-bottom: 50px;
 }
